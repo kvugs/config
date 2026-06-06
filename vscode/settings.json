@@ -1,5 +1,6 @@
 {
     "editor.minimap.enabled": false,
+    "explorer.compactFolders": false,
     "workbench.sideBar.location": "right",
     "workbench.colorTheme": "Palenight Theme",
     "workbench.iconTheme": "material-icon-theme",

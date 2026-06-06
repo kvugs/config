@@ -141,6 +141,8 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'  # case-insensitive
 
+export EDITOR=nvim
+
 # Prompt theme — Starship (active)
 # Config lives at ~/.config/starship.toml, symlinked from this repo.
 if command -v starship >/dev/null 2>&1; then
