@@ -2,8 +2,8 @@
 # Look for the address shaped like: <numbers>+<username>@users.noreply.github.com
 # Make sure "Keep my email addresses private" is checked
 [user]
-	email = <numbers>+<username>@users.noreply.github.com
-	name = <name>
+	email = 19304326+kvugs@users.noreply.github.com
+	name = Kent Vugs Nielsen
 [init]
 	defaultBranch = main # Default branch for new repos
 [core]
@@ -22,3 +22,8 @@
 	enabled = true # Reuse conflict resolutions across rebases
 [credential]
 	helper = osxkeychain # macOS keychain for HTTPS credentials (no need to retype tokens)
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

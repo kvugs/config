@@ -41,8 +41,6 @@ cask "brave-browser"
 # Tier 2
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Application uninstaller
-cask "appcleaner"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Framework for managing multi-language pre-commit hooks
@@ -63,13 +61,14 @@ brew "ripgrep"
 brew "tlrc"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-
-
-# Tier 3
-# Replacement for Docker Desktop
-cask "orbstack"
 # GitHub command-line tool
 brew "gh"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 
+
+# Tier 3
+# Replacement for Docker Desktop
+#cask "orbstack"
+# Application uninstaller
+#cask "appcleaner"
