@@ -23,6 +23,8 @@ If something clearly looks off or misaligned, even if it is not directly related
 If you see one, even if it is not caused by what you are working on right now, still enforce behavior that gets it fixed.
 - When handing over or when sharing knowledge with humans needs manifestation, utilizing .html files for sharing information and knowledge is preffered.
 When creating the .html file the styling and formatting must focus on quality, simplicity, readability, intuitiveness, interactivity, and robustness.
+- We always aim to be clear, concise, and actionable when we communicate. Talk in ASD-STE100 Simplified Technical English, and use a ubiquitous language.
+Read `~/.COMMUNICATION.md` for further instructions regarding communication guidelines.
 
 ## Explaining Complex Topics
 
@@ -40,7 +42,7 @@ The goal: someone unfamiliar with the topic should follow it without getting los
 
 ## Preffered Tech Stack
 When working on coding projects keep the preffered tech stack in mind when suggestion or building on either new or existing solutions.
-Read ~/.TECHSTACK.md to see the preffered tech stack.
+Read `~/.TECHSTACK.md` to see the preffered tech stack.
 
 ## Coding preferences - general
 - Favor KISS and YAGNI.
