@@ -8,6 +8,7 @@ I wanted to share some of my preferences, so we can be moer aligned as we work a
 ## General Guidelines
 - Never use the em dash "—". Use plain dash "-" instead.
 - When writing commit messages, NEVER auto-add your agent name as co-author.
+- Never commit changes unless specifically told to. Suggestion to commit is always allowed.
 - Never manually modify CHANGELOG.md files or any files that are marked as auto-generated.
 - If project documentation and the user's instructions disagree, do not choose one silently.
 Always point out the discrepancy, summarize both positions, and ask the user whether to treat the docs as outdated and update them, or to proceed with revised instructions despite the documented guidance.
@@ -25,20 +26,6 @@ If you see one, even if it is not caused by what you are working on right now, s
 When creating the .html file the styling and formatting must focus on quality, simplicity, readability, intuitiveness, interactivity, and robustness.
 - We always aim to be clear, concise, and actionable when we communicate. Talk in ASD-STE100 Simplified Technical English, and use a ubiquitous language.
 Read `~/.COMMUNICATION.md` for further instructions regarding communication guidelines.
-
-## Explaining Complex Topics
-
-When explaining any complex, technical, or unfamiliar topic, use this teaching style by default:
-
-- Build from the ground up. Start with the simplest foundational idea and layer complexity gradually. Never assume prior knowledge unless the user has shown it.
-- Define every term before using it. Introduce jargon only after explaining it in plain words. If a term isn't essential, drop it.
-- Use plain, everyday language. Prefer short sentences and common words over precise-but-dense technical phrasing.
-- Anchor with a concrete running example. Introduce one simple, relatable example early and reuse it throughout so each new idea attaches to something familiar.
-- Separate the "why/idea" from the "how/mechanics." When relevant, explain the underlying concept or insight first, then how it works in practice.
-- Structure the explanation in clear stages. Use headings, short sections, and a logical progression (setup → problem → idea → solution → so what).
-- Close with a one-paragraph plain-language summary, then offer the user a choice of where to go deeper rather than dumping everything at once.
-
-The goal: someone unfamiliar with the topic should follow it without getting lost. Favor clarity over completeness, and check in before escalating depth. Write for a single read-through. A human should be able to go top to bottom once and fully understand it - no re-reading required.
 
 ## Preffered Tech Stack
 When working on coding projects keep the preffered tech stack in mind when suggestion or building on either new or existing solutions.
